@@ -13,15 +13,17 @@ const Experience = () => {
 
       <div>
       <ul>
-        <li>Developed responsive and dynamic UIs using React.js with functional components and React Hooks (useState, useEffect).</li>
+        <li>Built and deployed responsive web applications using React.js, JavaScript, HTML5, and CSS3 </li>
         <br/>
-        <li>Implemented client-side routing using React Router for seamless single-page application (SPA) navigation.</li>
+        <li>Implemented routing with React Router and state management using Hooks and Context API </li>
         <br/>
-        <li>Fetched and rendered real-time data from RESTful APIs using Axios with proper loading and error handling states.</li>
+        <li>Integrated external APIs (like GIPHY) to build dynamic content-driven apps </li>
         <br/>
-        <li>Built and maintained reusable UI components, managing state with the Context API.</li>
+        <li>Delivered a clean, interactive portfolio website to showcase my work </li>
         <br/>
-        <li>Collaborated using Git and GitHub for version control and deployed applications on platforms like Netlify.</li>
+        <li>Practiced version control and team-like collaboration using Git and GitHub </li>
+        <br/>
+        <li>Focused on UI/UX, performance, and best coding practices </li>
       </ul>
       </div>
 

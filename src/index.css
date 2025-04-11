@@ -96,3 +96,14 @@
     align-items: center;
     justify-content: center;
 }
+
+.link{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.link:hover{
+    transform:scale(1.02);
+}
