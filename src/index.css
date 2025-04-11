@@ -1,0 +1,98 @@
+.wrp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: white;
+
+    background-color: #0b0c2a; /* Dark night sky */
+    background-image: 
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px);
+    background-size: 100px 100px, 150px 150px;
+    background-position: 0 0, 50px 50px;
+    height: 100vh;
+    margin: 0;
+}
+
+.pic{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.intro{
+    margin-top: 50px;
+    background-color: #1a1e4c;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-image: 
+    radial-gradient(#FF9933 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px);
+    background-size: 100px 100px, 150px 150px;
+    background-position: 0 0, 50px 50px;
+}
+
+.about{
+    text-align: center;
+}
+
+.skill{
+    display: flex;
+    gap: 50px;
+    height: 300px;
+    width: 1400px;
+    margin-top: 50px;
+}
+
+.sk1{
+    height: 300px;
+    width: 400px;
+    background-color: #1a1e4c;
+    background-image: 
+    radial-gradient(#FF9933 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px);
+    background-size: 100px 100px, 150px 150px;
+    background-position: 0 0, 50px 50px;
+    border-radius: 30px;
+}
+
+.exp{
+    background-color:#1a1e4c ;
+    height: 400px;
+    width: 800px;
+    border-radius: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: 
+    radial-gradient(#FF9933 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px);
+    background-size: 100px 100px, 150px 150px;
+    background-position: 0 0, 50px 50px;
+}
+
+.cont{
+    background-color: #1a1e4c ;
+    background-image: 
+    radial-gradient(#FF9933 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px);
+    background-size: 100px 100px, 150px 150px;
+    background-position: 0 0, 50px 50px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
