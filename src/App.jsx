@@ -6,6 +6,7 @@ import Skills from './Components/Skills';
 import Experience from './Components/Experience';
 import Intro from './Components/Intro';
 import Contact from './Components/Contact';
+import Project from './Components/Project';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="skills" element={<Skills />} />
           <Route path="experience" element={<Experience />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="projects" element={<Project/>} />
           </Route>
       </Routes>
     </BrowserRouter>

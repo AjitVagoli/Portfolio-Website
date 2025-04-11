@@ -107,3 +107,35 @@
 .link:hover{
     transform:scale(1.02);
 }
+
+.prj{
+    background-color: #1a1e4c;
+    height: 400px;
+    width: 600px;
+    background-image: 
+    radial-gradient(#FF9933 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px);
+    background-size: 100px 100px, 150px 150px;
+    background-position: 0 0, 50px 50px;
+    border-radius: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pbut{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.pbut:hover{
+    transform: scale(1.03);
+}
+
+.pwrp{
+    display: flex;
+    gap: 50px;
+}
