@@ -6,7 +6,7 @@ const Profile = () => {
     <div className='wrp'>
       <h1>👤 Ajit Manohar Vagoli</h1>
 
-      <nav>
+      <nav className='nav'>
         <NavLink to="/" style={linkStyle} >Intro</NavLink> |{" "}
         <NavLink to="Skills" style={linkStyle} >Skills</NavLink> |{" "}
         <NavLink to="experience" style={linkStyle} >Experience</NavLink> |{" "}

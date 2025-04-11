@@ -4,8 +4,8 @@ const Skills = () => {
   return (
     <div className='skill'>
        <div className='sk1'>
+       <h3>Core React Skills</h3>
        <ul>
-        <h3>Core React Skills</h3>
         <li>React.js (Functional Components & Hooks)</li>
         <br/>
         <li>JSX (JavaScript XML)</li>
@@ -19,8 +19,8 @@ const Skills = () => {
        </div>
 
        <div className='sk1'>
+       <h3>Routing & Navigation</h3>
        <ul>
-        <h3>Routing & Navigation</h3>
         <li>React Router (v6+)</li>
         <br/>
         <li>Nested Routes</li>
@@ -30,8 +30,8 @@ const Skills = () => {
        </div>
 
        <div className='sk1'>
+       <h3>State Management</h3>
        <ul>
-        <h3>State Management</h3>
         <li>Context API</li>
         <br/>
         <li>Redux Basics</li>
@@ -39,8 +39,8 @@ const Skills = () => {
        </div>
 
        <div className='sk1'>
+       <h3>Styling</h3>
        <ul>
-        <h3>Styling</h3>
         <li>CSS Modules </li>
         <br/>
         <li>Tailwind CSS</li>
@@ -50,8 +50,8 @@ const Skills = () => {
        </div>
 
        <div className='sk1'>
+       <h3>API & Data Handling</h3>
        <ul>
-        <h3>API & Data Handling</h3>
         <li>Fetching data using fetch / axios</li>
         <br/>
         <li>Consuming REST APIs</li>

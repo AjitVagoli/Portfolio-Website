@@ -1,145 +1,171 @@
-.wrp{
+.wrp {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     color: white;
-
-    background-color: #0b0c2a; /* Dark night sky */
+    background-color: #0b0c2a;
     background-image: 
-    radial-gradient(white 1px, transparent 1px),
-    radial-gradient(white 1px, transparent 1px);
+      radial-gradient(white 1px, transparent 1px),
+      radial-gradient(white 1px, transparent 1px);
     background-size: 100px 100px, 150px 150px;
     background-position: 0 0, 50px 50px;
-    height: 100vh;
     margin: 0;
-}
+    padding: 1rem;
+  }
+  
+  .nav{
+    display: flex;
+  }
 
-.pic{
-    height: 300px;
-    width: 300px;
+  .pic {
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     object-fit: cover;
-}
-
-.intro{
-    margin-top: 50px;
+  }
+  
+  .intro {
+    margin-top: 2rem;
     background-color: #1a1e4c;
-    height: 500px;
-    width: 600px;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
     background-image: 
-    radial-gradient(#FF9933 1px, transparent 1px),
-    radial-gradient(white 1px, transparent 1px);
+      radial-gradient(#FF9933 1px, transparent 1px),
+      radial-gradient(white 1px, transparent 1px);
     background-size: 100px 100px, 150px 150px;
     background-position: 0 0, 50px 50px;
-}
-
-.about{
+  }
+  
+  .about {
     text-align: center;
-}
-
-.skill{
+  }
+  
+  .skill {
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  
+  .sk1 {
+    width: 90%;
+    max-width: 400px;
     height: 300px;
-    width: 1400px;
-    margin-top: 50px;
-}
-
-.sk1{
-    height: 300px;
-    width: 400px;
     background-color: #1a1e4c;
     background-image: 
-    radial-gradient(#FF9933 1px, transparent 1px),
-    radial-gradient(white 1px, transparent 1px);
+      radial-gradient(#FF9933 1px, transparent 1px),
+      radial-gradient(white 1px, transparent 1px);
     background-size: 100px 100px, 150px 150px;
     background-position: 0 0, 50px 50px;
     border-radius: 30px;
-}
-
-.exp{
-    background-color:#1a1e4c ;
-    height: 400px;
-    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .exp,
+  .cont,
+  .prj {
+    background-color: #1a1e4c;
+    background-image: 
+      radial-gradient(#FF9933 1px, transparent 1px),
+      radial-gradient(white 1px, transparent 1px);
+    background-size: 100px 100px, 150px 150px;
+    background-position: 0 0, 50px 50px;
     border-radius: 50px;
-    margin-top: 50px;
+    margin-top: 3rem;
+    padding: 2rem;
+    width: 90%;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: 
-    radial-gradient(#FF9933 1px, transparent 1px),
-    radial-gradient(white 1px, transparent 1px);
-    background-size: 100px 100px, 150px 150px;
-    background-position: 0 0, 50px 50px;
-}
-
-.cont{
-    background-color: #1a1e4c ;
-    background-image: 
-    radial-gradient(#FF9933 1px, transparent 1px),
-    radial-gradient(white 1px, transparent 1px);
-    background-size: 100px 100px, 150px 150px;
-    background-position: 0 0, 50px 50px;
-    height: 400px;
-    width: 400px;
-    border-radius: 50px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.cbut{
+  }
+  
+  .cont {
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .prj {
+    max-width: 550px;
+    height: auto;
+  }
+  
+  .cbut,
+  .pbut {
     height: 40px;
-    width: 150px;
+    width: auto;
+    padding: 0 1.5rem;
     border-radius: 10px;
     cursor: pointer;
     color: white;
     background-color: #FF9933;
-}
-
-.cbut:hover{
-    transform:scale(1.02);
-}
-
-.prj{
-    background-color: #1a1e4c;
-    height: 400px;
-    width: 550px;
-    background-image: 
-    radial-gradient(#FF9933 1px, transparent 1px),
-    radial-gradient(white 1px, transparent 1px);
-    background-size: 100px 100px, 150px 150px;
-    background-position: 0 0, 50px 50px;
-    border-radius: 50px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.pbut{
-    height: 40px;
-    width: 80px;
-    border-radius: 10px;
-    color: white;
-    background-color: #FF9933;
-}
-
-.pbut:hover{
+  }
+  
+  .cbut:hover,
+  .pbut:hover {
     transform: scale(1.03);
-}
-
-.pwrp{
+  }
+  
+  .pwrp {
     display: flex;
-    gap: 50px;
-}
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  /* ----------- MEDIA QUERIES ---------- */
+  
+  @media (max-width: 768px) {
+    .pic {
+      height: 150px;
+      width: 150px;
+    }
+  
+    .intro {
+      padding: 1rem;
+    }
+  
+    .skill,
+    .pwrp {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .sk1,
+    .exp,
+    .cont,
+    .prj {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .pic {
+      height: 120px;
+      width: 120px;
+    }
+  
+    .pbut {
+      width: 40%;
+      padding: 0.5rem 1rem;
+    }
+
+    .cbut{
+      width: 50%;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
