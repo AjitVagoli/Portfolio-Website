@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <div className='exp'>
       <div>
-      <h2><strong>React Developer Intern</strong></h2>
+      <h3>React Developer Intern</h3>
       <p>5TechG Lab, Jath, Sangli, Maharashtra.</p>
       <p>Jan 2025 – Present</p>
       </div>
