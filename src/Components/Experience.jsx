@@ -6,7 +6,7 @@ const Experience = () => {
       <div>
       <h2><strong>React Developer Intern</strong></h2>
       <p>5TechG Lab, Jath, Sangli, Maharashtra.</p>
-      <p>Jan 2025 – Jun 2025</p>
+      <p>Jan 2025 – Present</p>
       </div>
 
       <br/>
