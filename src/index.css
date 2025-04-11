@@ -66,7 +66,7 @@
 .exp{
     background-color:#1a1e4c ;
     height: 400px;
-    width: 800px;
+    width: 700px;
     border-radius: 50px;
     margin-top: 50px;
     display: flex;
@@ -97,21 +97,23 @@
     justify-content: center;
 }
 
-.link{
+.cbut{
     height: 40px;
     width: 150px;
     border-radius: 10px;
     cursor: pointer;
+    color: white;
+    background-color: #FF9933;
 }
 
-.link:hover{
+.cbut:hover{
     transform:scale(1.02);
 }
 
 .prj{
     background-color: #1a1e4c;
     height: 400px;
-    width: 600px;
+    width: 550px;
     background-image: 
     radial-gradient(#FF9933 1px, transparent 1px),
     radial-gradient(white 1px, transparent 1px);
@@ -129,6 +131,8 @@
     height: 40px;
     width: 80px;
     border-radius: 10px;
+    color: white;
+    background-color: #FF9933;
 }
 
 .pbut:hover{
