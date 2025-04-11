@@ -4,7 +4,7 @@ const Project = () => {
   return (
     <div className='pwrp'>
         <div className='prj'>
-        <h3>Random GIF Generator</h3>
+        <h3 className='prjh3'>Random GIF Generator</h3>
         <p>
         <ul>
             <li>Built a React app that fetches and displays GIFs using the GIPHY API </li>
@@ -24,7 +24,7 @@ const Project = () => {
       
         </div>
         <div className='prj'>
-        <h3>Todo App with Context API</h3>
+        <h3 className='prjh3'>Todo App with Context API</h3>
         <p>
         <ul>
             <li>Created a fully functional todo app using React and Context API for global state </li>
