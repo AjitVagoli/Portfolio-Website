@@ -133,7 +133,7 @@
   @media (max-width: 768px) {
 
     .wrp{
-      height: 100vh;
+      height: auto;
       width: auto;
     }
 
