@@ -7,11 +7,11 @@ const Profile = () => {
       <h1>👤 Ajit Manohar Vagoli</h1>
 
       <nav className='nav'>
-        <NavLink to="/" style={linkStyle} >Intro</NavLink> |{" "}
-        <NavLink to="Skills" style={linkStyle} >Skills</NavLink> |{" "}
-        <NavLink to="experience" style={linkStyle} >Experience</NavLink> |{" "}
-        <NavLink to="projects" style={linkStyle} >Projects</NavLink> |{" "}
-        <NavLink to="contact" style={linkStyle} >Contact</NavLink> 
+        <NavLink className='navb' to="/" style={linkStyle} >Intro</NavLink> |{" "}
+        <NavLink className='navb' to="Skills" style={linkStyle} >Skills</NavLink> |{" "}
+        <NavLink className='navb' to="experience" style={linkStyle} >Experience</NavLink> |{" "}
+        <NavLink className='navb' to="projects" style={linkStyle} >Projects</NavLink> |{" "}
+        <NavLink className='navb' to="contact" style={linkStyle} >Contact</NavLink> 
       </nav>
 
       {/* This will render the nested route component */}
