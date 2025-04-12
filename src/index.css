@@ -17,7 +17,7 @@
   .nav{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   .pic {
@@ -131,6 +131,12 @@
   /* ----------- MEDIA QUERIES ---------- */
   
   @media (max-width: 768px) {
+
+    .wrp{
+      height: 100vh;
+      width: auto;
+    }
+
     .pic {
       height: 150px;
       width: 150px;
